@@ -1,0 +1,96 @@
+body {
+	background: #e3e3e3;
+	margin: 20px auto;
+}
+
+div.wrapper {
+	/*display: block;*/
+	width: 37.5rem/* 600px */;
+	margin:  1.25rem/* 20px */;
+	background-color: white;
+	position: absolute;
+}
+
+div.articleImage img {
+	float: 	left;
+	margin-right: 30px;
+	top: 20px;
+	left: 20px;
+	position: relative;
+}
+
+div.article {
+	float: right;
+	width: 21.875rem/* 350px */;
+}
+
+a {
+	color: #276056;
+}
+
+.meta {
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+.meta a, .post-info a {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.meta li:after {
+	content: '\\';
+	padding: 0 2px;
+	color: #999;
+}
+
+
+.meta li:last-child:after {
+	content: none;
+}
+
+ul li {
+	display: inline;
+	text-align: left;
+	padding-left: 0;
+}
+
+div.article h2 {
+	font-size: 29px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1em;
+
+}
+
+.post-info {
+	background-color: #f3f3f3;
+	color: #999;
+	padding: 3px;
+	float: left;
+	font-size: 14px;
+}
+
+.post-info a {
+	color: #999;
+	text-decoration: none;
+}
+
+.post-info a:hover {
+	color: black;
+}
+
+.body {
+	clear: both;
+}
+.goto {
+	float: right;
+	padding-right: 10px;
+}
+
+.goto:before {
+	content: '(';
+}
+
+.goto:after {
+	content: ')';
+}
